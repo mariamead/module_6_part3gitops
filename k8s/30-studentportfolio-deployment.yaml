@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/mariamead/module_6_part3-studentportfolio:9699baa468188c72586dc7531da248e3c3182dc3
+          image: ghcr.io/mariamead/module_6_part3-studentportfolio:ebb6b1425cb454a9ee6e35adabc6b2e325cfed1f
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
