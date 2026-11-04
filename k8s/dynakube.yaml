@@ -17,7 +17,6 @@ spec:
   # Enables full-stack monitoring (OneAgent deployed as a DaemonSet)
   oneAgent:
     cloudNativeFullStack: {}
-
   activeGate:
     capabilities:
       - routing
