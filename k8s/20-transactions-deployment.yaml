@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/mariamead/module_6_part3-transactions:c4abf7187fad6eaf0eca6585e8e6e57332d5ddd6
+          image: ghcr.io/mariamead/module_6_part3-transactions:c2aa010ccc5af89f4f29651e0fc59c78e6c8f20f
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
