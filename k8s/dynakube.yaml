@@ -5,10 +5,10 @@ metadata:
   namespace: dynatrace
   annotations:
     argocd.argoproj.io/sync-wave: "1"
-    feature.dynatrace.com/mount-code-modules-via-image-volume: "true"
 spec:
   # Replace with your actual Dynatrace SaaS or Managed URL
   apiUrl: https://pdt20158.live.dynatrace.com/api
+  
   # References the secret containing the API token you generated
   tokens: dynakube
   # Explicitly name your cluster in the Dynatrace UI
